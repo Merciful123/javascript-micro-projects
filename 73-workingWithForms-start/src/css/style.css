@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#signup-form {
+  position: relative;
+  top: 30px;
+  left: 30px;
+  width: 500px;
+
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: rgb(55, 9, 125);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#form-title {
+  position: relative;
+  color: #fff;
+  font-size: 40px;
+}
+
+#form-body {
+  position: relative;
+  top: 20px;
+  padding-bottom: 14px;
+}
+
+.form-field {
+  position: relative;
+  padding: 5px;
+  height: 50px;
+  margin-bottom: 5px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  transition: background-color 400ms;
+}
+
+#form-body label {
+  position: absolute;
+  top: 18px;
+  color: #fff;
+}
+
+#form-body input {
+  position: absolute;
+  right: 10px;
+  font-size: 20px;
+  padding: 6px;
+  width: 300px;
+  top: 8px;
+}
+
+#form-body input[type='checkbox'] {
+  zoom: 1.7;
+  width: 10px;
+  left: 100px;
+}
+
+.form-field button {
+  position: absolute;
+  top: 15px;
+  padding: 6px;
+  width: 314px;
+  border-radius: 5px;
+  left: 175px;
+  background-color: rgb(155, 99, 251);
+  color: #fff;
+  font-size: 14px;
+}
+
+.form-field-error {
+  background-color: rgb(215, 84, 84);
+}

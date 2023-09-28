@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your JavaScript Playground</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div id="main">
+      <form method="post" action="">
+        <div id="signup-form">
+          <div id="form-title">Signup</div>
+          <div id="form-body">
+            <div class="form-field">
+              <label>E-Mail</label><input type="email" name="email" />
+            </div>
+            <div class="form-field">
+              <label>Password</label><input type="password" name="password" />
+            </div>
+            <div class="form-field">
+              <label>Retype Password</label
+              ><input type="password" name="repassword" />
+            </div>
+            <div class="form-field">
+              <label>Full Name</label
+              ><input type="text" name="fullname" minlength="2" />
+            </div>
+            <div class="form-field">
+              <label>Are you a merchant?</label>
+              <input type="checkbox" name="isMerchant" />
+            </div>
+            <div class="form-field">
+              <button type="submit">Go</button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script type="module" src="./js/index.js"></script>
+  </body>
+</html>

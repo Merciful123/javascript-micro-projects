@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.label {
+  position: absolute;
+  color: white;
+  background-color: #000;
+  top: 0px;
+  left: 0px;
+  font-size: 12px;
+  padding: 5px;
+}
+
+.all-employees {
+  position: relative;
+  border: 3px solid red;
+  width: 550px;
+  padding: 10px;
+  margin: 20px;
+  padding-top: 40px;
+  user-select: none;
+}
+
+div.highlight-drop {
+  border: 3px dashed rgb(0, 0, 0);
+  background-color: rgba(200, 200, 200, 0.1);
+}
+
+.task-force {
+  position: relative;
+  border: 3px solid rgb(17, 166, 0);
+  width: 550px;
+  padding: 10px;
+  margin: 20px;
+  padding-top: 40px;
+  /* user-select: none; */
+}
+
+.employee {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  margin: 10px;
+  background-size: cover;
+  display: inline-block;
+  border: 2px solid;
+}
+
+.employee > img {
+  width: 100px;
+}
+
+.info-panel {
+  position: absolute;
+  padding: 10px;
+  background-color: rgba(61, 61, 61, 0.8);
+  color: #fff;
+  z-index: 10;
+  font-size: 12px;
+}

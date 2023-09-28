@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#main {
+  padding: 30px;
+  width: 600px;
+}
+
+#input {
+  position: relative;
+  background-color: rgb(218, 244, 240);
+  margin-bottom: 20px;
+}
+
+#input input {
+  padding: 6px;
+  font-size: 30px;
+  width: 582px;
+  outline: none;
+  text-align: center;
+}
+
+.conversion {
+  position: relative;
+  background-color: rgb(255, 222, 203);
+  padding: 15px;
+  margin-top: 2px;
+}
+
+.conversion .unit {
+  position: relative;
+  font-size: 26px;
+  border-right: 1px solid;
+  width: 275px;
+  display: inline-block;
+}
+
+.conversion .value {
+  position: relative;
+  font-size: 26px;
+  padding-left: 0px;
+  width: 280px;
+  text-align: center;
+  display: inline-block;
+}
