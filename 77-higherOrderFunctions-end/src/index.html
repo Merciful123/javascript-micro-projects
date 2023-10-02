@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your JavaScript Playground</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div id="main">
+      <h1>Shopping Cart</h1>
+      <div class="cart">
+        <div class="cart-row">
+          <div class="item"><strong>Item</strong></div>
+          <div class="quantity"><strong>Quantity</strong></div>
+          <div class="cost"><strong>Cost</strong></div>
+        </div>
+
+        <div class="item-rows">
+          <div class="cart-row">
+            <div class="item">Ice Cream - Pineapple</div>
+            <div class="quantity">2</div>
+            <div class="cost">12</div>
+          </div>
+          <div class="cart-row">
+            <div class="item">Ice Cream - Pineapple</div>
+            <div class="quantity">2</div>
+            <div class="cost">12</div>
+          </div>
+        </div>
+      </div>
+      <div class="totals">
+        <div class="currency">
+          <select name="currency-picker">
+            <option>EUD</option>
+          </select>
+        </div>
+        <div class="total-quantity">23</div>
+        <div class="total-cost">2500</div>
+      </div>
+    </div>
+    <script type="module" src="./js/index.js"></script>
+  </body>
+</html>

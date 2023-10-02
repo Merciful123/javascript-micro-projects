@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "product": "Whiskers Kitten Food",
+    "cost": 35.5,
+    "shipping": 2.25,
+    "category": "petfood"
+  },
+  {
+    "id": 2,
+    "product": "Cute Paws Adult Cat Food",
+    "cost": 50.25,
+    "shipping": null,
+    "category": "petfood"
+  },
+  {
+    "id": 3,
+    "product": "Orange MX20 Smartphone",
+    "cost": 800,
+    "shipping": 10,
+    "category": "smartphones"
+  },
+  {
+    "id": 4,
+    "product": "FlickPhone GX30 Smartphone",
+    "cost": 950,
+    "shipping": null,
+    "category": "smartphones"
+  },
+  {
+    "id": 5,
+    "product": "PixelPerfect 32 SmartTV (Android)",
+    "cost": 1250,
+    "shipping": null,
+    "category": "televisions"
+  },
+  {
+    "id": 6,
+    "product": "PixelPerfect 43 SmartTV (Android)",
+    "cost": 1820,
+    "shipping": null,
+    "category": "televisions"
+  }
+]

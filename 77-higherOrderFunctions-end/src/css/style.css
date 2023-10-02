@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#main {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  width: 800px;
+}
+
+.cart {
+  position: relative;
+}
+
+.cart-row {
+  position: relative;
+  background-color: rgb(231, 231, 231);
+  font-size: 20px;
+  padding: 10px;
+  margin-bottom: 2px;
+}
+
+.cart > .cart-row:nth-child(1) {
+  background-color: #000;
+  color: #fff;
+  font-weight: bold;
+}
+
+.cart-row .item {
+  position: relative;
+  width: 400px;
+  display: inline-block;
+}
+
+.cart-row .quantity {
+  position: relative;
+  width: 150px;
+  text-align: center;
+  display: inline-block;
+}
+
+.cart-row .cost {
+  position: relative;
+  left: 18px;
+  width: 150px;
+  text-align: center;
+  display: inline-block;
+}
+
+.totals {
+  position: relative;
+  border-top: 4px solid;
+}
+
+.total-quantity,
+.total-cost {
+  position: absolute;
+  width: 150px;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  left: 405px;
+  font-weight: bold;
+}
+
+.total-cost {
+  left: 575px;
+}
+
+.currency {
+  position: absolute;
+  top: 4px;
+  left: 10px;
+}
+
+select[name='currency-picker'] {
+  position: absolute;
+  font-size: 20px;
+  padding: 5px;
+}

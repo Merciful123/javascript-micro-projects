@@ -1,0 +1,52 @@
+[
+  { "id": 1, "product": "Tea - Decaf 1 Cup", "cost": 5.19, "quantity": 5 },
+  { "id": 2, "product": "Wine - Cotes Du Rhone", "cost": 8.17, "quantity": 4 },
+  { "id": 3, "product": "Rice - 7 Grain Blend", "cost": 8.12, "quantity": 4 },
+  { "id": 4, "product": "Garam Masala Powder", "cost": 3.76, "quantity": 2 },
+  { "id": 5, "product": "French Pastries", "cost": 9.79, "quantity": 2 },
+  { "id": 6, "product": "Flour - Pastry", "cost": 3.23, "quantity": 4 },
+  { "id": 7, "product": "Mix Pina Colada", "cost": 11.9, "quantity": 2 },
+  {
+    "id": 8,
+    "product": "Appetizer - Tarragon Chicken",
+    "cost": 9.47,
+    "quantity": 4
+  },
+  { "id": 9, "product": "Flour - All Purpose", "cost": 14.04, "quantity": 3 },
+  { "id": 10, "product": "Fuji Apples", "cost": 3.36, "quantity": 1 },
+  {
+    "id": 11,
+    "product": "Lobster - Tail, 3 - 4 Oz",
+    "cost": 10.58,
+    "quantity": 3
+  },
+  { "id": 12, "product": "Juice - Apple 284ml", "cost": 8.41, "quantity": 1 },
+  { "id": 13, "product": "Juice - Tomato, 10 Oz", "cost": 8.96, "quantity": 5 },
+  {
+    "id": 14,
+    "product": "Wine - Cousino Macul Antiguas",
+    "cost": 10.34,
+    "quantity": 3
+  },
+  {
+    "id": 15,
+    "product": "Mushroom - Oyster, Fresh",
+    "cost": 13.21,
+    "quantity": 4
+  },
+  {
+    "id": 16,
+    "product": "Chicken - White Meat, No Tender",
+    "cost": 5.08,
+    "quantity": 2
+  },
+  { "id": 17, "product": "Chick Peas - Canned", "cost": 12.17, "quantity": 2 },
+  {
+    "id": 18,
+    "product": "Spice - Peppercorn Melange",
+    "cost": 11.32,
+    "quantity": 3
+  },
+  { "id": 19, "product": "Tahini Paste", "cost": 6.31, "quantity": 3 },
+  { "id": 20, "product": "Cassis", "cost": 5.14, "quantity": 2 }
+]
