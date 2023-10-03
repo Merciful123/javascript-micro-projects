@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#main {
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+#products {
+  border-top: 15px solid red;
+  width: 582px;
+  padding-top: 10px;
+}
+
+.product {
+  position: relative;
+  border: 1px solid #ccc;
+  background-color: rgb(244, 244, 244);
+  padding: 10px;
+  width: 560px;
+  margin-bottom: 4px;
+}
+
+.name {
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.cost,
+.total {
+  font-size: 23px;
+}
