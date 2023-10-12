@@ -1,0 +1,10 @@
+{
+  "presets": [["@babel/preset-env", {
+    "targets": "last 2 versions"
+  }]],
+  "plugins": [
+    ["@babel/plugin-proposal-pipeline-operator", {
+      "proposal": "minimal"
+    }]
+  ]
+}
