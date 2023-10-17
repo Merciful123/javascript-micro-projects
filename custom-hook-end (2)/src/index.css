@@ -1,0 +1,142 @@
+body {
+  margin: 10;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  position: absolute;
+  width: 740px;
+  height: 250px;
+  border: 1px solid;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  margin: auto;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.vertical {
+  width: 500px;
+  height: 550px;
+  flex-direction: column;
+}
+
+.cover {
+  background-image: url(./cover.jpg);
+  background-size: cover;
+  background-position: center;
+  order: 0;
+  flex: 2 2 auto;
+}
+
+.form-panel {
+  background-color: rgb(248, 248, 248);
+
+  order: 1;
+  flex: 0 0 auto;
+}
+
+.form-field-holder {
+  position: relative;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin-bottom: 1px;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.form-field-title {
+  height: 50px;
+  top: 0px;
+  left: 0px;
+  width: 100px;
+  background-color: rgb(187, 187, 187);
+  color: rgb(39, 39, 39);
+
+  font-size: 20px;
+  padding: 12px;
+  box-sizing: border-box;
+  order: 0;
+  flex: 1 1 auto;
+}
+
+.form-field-input {
+  height: 50px;
+  left: 300px;
+  background-color: rgb(209, 209, 209);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 20px;
+  box-sizing: border-box;
+  order: 1;
+  flex: 2 1 auto;
+}
+
+.form-field-input > input,
+select {
+  position: relative;
+  font-size: 31px;
+  top: 5px;
+  left: 3px;
+  width: 90%;
+  outline: none;
+  border: none;
+}
+
+.form-header {
+  position: relative;
+  font-size: 30px;
+  padding: 15px;
+  box-sizing: border-box;
+  background-color: rgb(65, 65, 65);
+  color: rgb(255, 255, 255);
+}
+
+.button-holder {
+  position: relative;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-end;
+  background-color: rgb(65, 65, 65);
+}
+
+.button-holder > button {
+  font-size: 20px;
+  padding: 15px;
+  width: 200px;
+  margin: 5px;
+  background-color: rgb(207, 207, 207);
+  flex: 1 0 auto;
+  align-self: auto;
+}
+
+.phone-login {
+  position: relative;
+  order: 3;
+  display: flex;
+  align-items: center;
+  background-color: rgb(68, 131, 78);
+  flex: 0.3 0 auto;
+}
+
+.phone-login > button {
+  font-size: 20px;
+  padding: 15px;
+  width: 200px;
+  margin: 5px;
+  background-color: rgb(207, 207, 207);
+  flex: 1 0 auto;
+  align-self: auto;
+}
